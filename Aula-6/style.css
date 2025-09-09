@@ -1,0 +1,22 @@
+#titulo-principal {
+  color: blue
+}
+
+.descricao {
+  color: red;
+  font-size: 20px
+}
+
+* {
+    background-color: gray;
+}
+
+p {
+  color: greenyellow;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 48px;
+}

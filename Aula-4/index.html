@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula_04</title>
+
+    <style>
+      h1 {
+        color: blue;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background-color: #b9b9b9;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    Aula 4 - Curso Front-End
+    <h1>Titulo</h1>
+
+    <div id="resultado"></div>
+
+    <script>
+      alert("Alerta na tela");
+      console.log("Olá, Maricá");
+
+      let cidade = "Maricá";
+      let ano = 2025;
+      console.log(cidade + " em " + ano);
+
+      console.log(10 + 5);
+      console.log(5 > 10);
+
+      if (cidade === "Niterói") {
+        console.log("Você nasceu em Maricá?");
+      } else {
+        console.log("Você nasceu onde?");
+      }
+
+      let divResultado = document.getElementById("resultado");
+
+      for (let i = 1; i <= 5; i++) {
+        divResultado.innerHTML += "Número " + i + "<br>";
+      }
+
+      /*ESTRUTURA DE REPETIÇÃO 
+    for (let i = 1; i < 1000; i++) {
+        console.log("Número: " + i);
+
+  }
+        */
+    </script>
+  </body>
+</html>
