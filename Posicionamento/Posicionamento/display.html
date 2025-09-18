@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div style="background-color: red;">   <!-- display block, muda largura -->
+    <div >Esta é uma DIV normal</div> <!-- display block -->
+    <div style="background-color: green;width: 500px;"> E aqui a história <div>Div de dentro</div> continua</div>
+</div>
+
+<div> <!-- display block, o paragrafo já vem com uma margem por padrão -->
+     <p style="margin: 0;">Este é um parágrafo normal</p> 
+    <p style="margin: 0;">E aqui a história continua</p>
+</div>
+
+<p>                                          <!-- span display iline, não muda largura -->
+    Aqui eu tenho o inicio de um parágrafo <span style="background-color: blueviolet; width: 500px; display: 
+    inline-block;">um SPAN no meio</span> E o fim do parágrafo.
+</p>
+
+<!-- nunca usar um elemento fo tipo block dentro de um paragrafo -->
+<p style="background-color: cyan;">
+    Aqui eu tenho o inicio de um parágrafo <div>uma div no meio</div> E o fim do parágrafo.
+</p>
+
+ <p>                                                                 <!-- visibility: hidden; -->
+    Aqui eu tenho o inicio de um parágrafo <img src="./img.jpg" style="width: 100px; display: none;"> E o fim do parágrafo.
+</p>
+
+
+
+</body>
+</html>
